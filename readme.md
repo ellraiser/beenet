@@ -46,8 +46,8 @@ When you have that, other players will be able to join the server by entering yo
 Beenjamin and their friend Beetrix want to play APICO together. They are both at Beenjamin's house, on the same network. Beenjamin wants to host their world, and Beetrix wants to join them.
 
 - Step 1: Beenjamin downloads the BeeNet server from the [Releases](https://github.com/ellraiser/beenet/releases) section and runs the program
-- Step 2: Beenjamin opens APICO, and enters the IP shown in the BeeNetserver as their Custom IP
-- Step 3: Beenjamin clicks "Host Game" in APICO as they would normally and selects their world
+- Step 2: Beenjamin opens APICO, and enters the IP shown in the server as their Custom IP
+- Step 3: Beenjamin clicks "Host Game" in APICO as they would normally and starts their world
 - Step 4: Beenjamin sends Beetrix the IP shown in the server, who also sets this as their Custom IP in-game
 - Step 5: Beetrix enters the host code from Beenjamin's game, and joins the world
 - Step 6: They both spend a wonderful afternoon playing APICO!
@@ -58,8 +58,8 @@ Bobbee and their friend Barnabee want to play APICO together. Barnabee is curren
 - Step 1: Bobbee downloads the BeeNet server from the [Releases](https://github.com/ellraiser/beenet/releases) section and runs the program
 - Step 2: Bobbee goes to [Port Forward](https://portforward.com/router.htm) to find out how to forward the port `8335`
 - Step 3: Bobbee goes to [Whats My IP](https://www.whatismyip.com/) and jots down their public IP address
-- Step 4: Bobbee opens APICO, and enters the IP shown in the BeeNet server as their Custom IP
-- Step 5: Bobbee clicks "Host Game" in APICO as they would normally and selects their world
+- Step 4: Bobbee opens APICO, and enters the IP shown in the server as their Custom IP
+- Step 5: Bobbee clicks "Host Game" in APICO as they would normally and starts their world
 - Step 6: Bobbee sends Barnabee their public IP address, who sets this as their Custom IP in-game
 - Step 7: Barnabee enters the host code from Bobbee's game, and joins the world
 - Step 8: They both spend a wonderful evening playing APICO!
