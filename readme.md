@@ -37,7 +37,7 @@ The port you need to forward is `8335`!
 Once you have that setup you need to find your public IP address, you can use [Whats My IP](https://www.whatismyip.com/) for this.  
 > Note that depending on your ISP, your public IP may change each time you turn on your computer, so it might not always be the same - it's best to check each time using the link above.
 
-When you have that, other players will be able to join the server by entering your public IP+PORT in the Custom IP in-game, i.e.:  
+When you have that, other players will be able to join the server by entering your public IP in their "Custom IP" section in-game, i.e.:
 `78.188.10.32`  
 
 > If you try and enter your own public IP address when you're running the BeeNet server on the same machine you're playing on you'll get a "Failed to connect to BeeNet" error - you need to use your LOCAL IP address as shown in the previous section.
@@ -48,7 +48,7 @@ When you have that, other players will be able to join the server by entering yo
 Beenjamin and their friend Beetrix want to play APICO together. They are both at Beenjamin's house, on the same network. Beenjamin wants to host their world, and Beetrix wants to join them.
 
 - Step 1: Beenjamin downloads the BeeNet server from the [Releases](https://github.com/ellraiser/beenet/releases) section and runs the program
-- Step 2: Beenjamin opens APICO, and enters the IP shown in the server as their Custom IP
+- Step 2: Beenjamin opens APICO, and enters the IP shown in the server as their Custom IP in-game
 - Step 3: Beenjamin clicks "Host Game" in APICO as they would normally and starts their world
 - Step 4: Beenjamin sends Beetrix the IP shown in the server, who also sets this as their Custom IP in-game
 - Step 5: Beetrix enters the host code from Beenjamin's game, and joins the world
@@ -60,7 +60,7 @@ Bobbee and their friend Barnabee want to play APICO together. Barnabee is curren
 - Step 1: Bobbee downloads the BeeNet server from the [Releases](https://github.com/ellraiser/beenet/releases) section and runs the program
 - Step 2: Bobbee goes to [Port Forward](https://portforward.com/router.htm) to find out how to forward the port `8335`
 - Step 3: Bobbee goes to [Whats My IP](https://www.whatismyip.com/) and jots down their public IP address
-- Step 4: Bobbee opens APICO, and enters the IP shown in the server as their Custom IP
+- Step 4: Bobbee opens APICO, and enters the IP shown in the server as their Custom IP in-game
 - Step 5: Bobbee clicks "Host Game" in APICO as they would normally and starts their world
 - Step 6: Bobbee sends Barnabee their public IP address, who sets this as their Custom IP in-game
 - Step 7: Barnabee enters the host code from Bobbee's game, and joins the world
