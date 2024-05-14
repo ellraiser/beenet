@@ -68,9 +68,11 @@ if (app != undefined) {
     })
     win.loadFile('index.html')
     // start server
-    SERVER.listen(process.env.PORT || PORT, function() {
-      send_log("purple", _timestamp(), "BEENET_ONLINE", "IP: " + LOCAL_ADDR, "PORT: " + PORT, VERS);
-    });
+    setTimeout(function() {
+      SERVER.listen(process.env.PORT || PORT, function() {
+        send_log("purple", _timestamp(), "BEENET_ONLINE", "IP: " + LOCAL_ADDR, "PORT: " + PORT, VERS);
+      });
+    }, 2000)
   })
 // otherwise just listen
 } else {

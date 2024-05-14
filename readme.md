@@ -17,7 +17,7 @@ To start the server, simply run the program - you may run into firewall or secur
 
 If the other player/s are on same network as the person running the server (i.e. you're all at the same house), this is the only setup needed.  
 
-You all just need to enter the IP shown in the first log of the server as your "Custom IP" in-game, and then you can player multiplayer together as you would normally. 
+You all just need to enter the IP shown in the server as your "Custom IP" in-game, and then you can player multiplayer together as you would normally. 
 ![custom ip screenshot](examples/custom-ip.png)
 
 If the other player/s are NOT playing on the same network as the person running the server, you will need to port forward, lucky you!
@@ -66,6 +66,6 @@ Bobbee and their friend Barnabee want to play APICO together. Barnabee is curren
 
 
 ## Nerds Only
-If ur a nerd and know what you're doing you don't need to bother using the releases, you can just download the repo and run locally through the terminal - you'll need node and electron installed! 
+If ur a nerd and know what you're doing, or running Linux (same thing :P) you can just download the repo and run locally through the terminal - you just need nodejs installed.
 
 There's a lot of differences between this server and the real BeeNet the game uses by default, I've stripped out a lot of stuff not needed so if something seems missing then it probably is! The game client itself handles all the sync actions, the server is just sending the data to the correct clients based on the host, so keep in mind there's a whole other side of the multiplayer you can't see. 

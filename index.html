@@ -1,6 +1,7 @@
 <html>
   <head>
-    <title>BeeNet</title>
+    <title>BeeNet - Loading...</title>
+    <link rel="icon" type="image/x-icon" href="build/icon.png">
     <style>
       body {
         background: #222;
@@ -45,6 +46,9 @@
             '<td>' + log.arg2 + '</td>' +
             '<td>' + log.arg3 + '</td>';
           document.getElementById('mount').appendChild(el)
+          if (log.key == 'BEENET_ONLINE') {
+            document.title = 'BeeNet - ' + log.arg1
+          }
         }
       })
     </script>

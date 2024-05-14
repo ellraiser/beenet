@@ -1,21 +1,27 @@
 {
-  "name": "apico-server",
+  "name": "beenet",
   "version": "1.0.0",
-  "description": "",
+  "description": "custom relay server for APICO",
   "main": "server.js",
   "dependencies": {
     "net": "^1.0.2"
   },
   "devDependencies": {
+    "electron-builder": "^24.13.3",
     "electron": "^30.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron server.js",
+    "build": "electron-builder build --macos --windows --x64"
   },
   "engines": {
     "node": "12.17.x"
   },
-  "author": "",
+  "build": {
+    "appId": "com.tngineers.beenet",
+    "productName": "BeeNet"
+  },
+  "author": "ellraiser",
   "license": "ISC"
 }
