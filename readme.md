@@ -24,7 +24,9 @@ If the other player/s are NOT playing on the same network as the person running 
 
 
 ## Port Forwarding
-Port forwarding is something you have to do in your internet router settings. If you do not have access to your router (i.e. you're in student accomadation) you will not be able to port forward and so you will not be able to run a custom BeeNet server for players not on the same network as you.
+Port forwarding allows traffic between you and other people online over a specific port. It's something you can modify in your internet router settings.
+
+> If you do not have access to your router (i.e. you're in student accomadation) you will not be able to port forward and so you will not be able to run a custom BeeNet server for players not on the same network as you.
 
 Assuming you do have access to your router, you can use the website, [Port Forward](https://portforward.com/router.htm) to find out specific steps for the brand of router you have.
 Usually the steps involve something like going to the URL `192.168.1.1` in your browser, logging in using the username/password on the back of your physical router, and then specifying a port to forward.
