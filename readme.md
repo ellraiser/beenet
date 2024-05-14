@@ -69,3 +69,5 @@ Bobbee and their friend Barnabee want to play APICO together. Barnabee is curren
 If ur a nerd and know what you're doing, or running Linux (same thing :P) you can just download the repo and run locally through the terminal - you just need nodejs installed.
 
 There's a lot of differences between this server and the real BeeNet the game uses by default, I've stripped out a lot of stuff not needed so if something seems missing then it probably is! The game client itself handles all the sync actions, the server is just sending the data to the correct clients based on the host, so keep in mind there's a whole other side of the multiplayer you can't see. 
+
+Unless you find something breaking with the actual sync functionality I'm prob not going to be accepting PRs on this one as there's already a lot for me to keep on top of :)
