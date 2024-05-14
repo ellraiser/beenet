@@ -1,0 +1,21 @@
+{
+  "name": "apico-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "electron": "^30.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "engines": {
+    "node": "12.17.x"
+  },
+  "author": "",
+  "license": "ISC"
+}

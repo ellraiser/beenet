@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>BeeNet</title>
+    <style>
+      body {
+        background: #222;
+        color: #eee;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+        font-family: monospace;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table td {
+        font-family: monospace;
+        font-size: 11px;
+        max-width: 150px;
+        text-overflow: ellipsis;
+        white-space: pre;
+        overflow: hidden;
+      }
+      table tr.purple {
+        color: gold;
+      }
+      table tr.pink {
+        color: peachpuff;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="mount"></table>
+    <script type="text/javascript">
+      window.electronAPI.sendData(function(log) {
+        if (log != undefined && log.color != undefined) {
+          var el = document.createElement('tr')
+          el.className = log.color
+          el.innerHTML = 
+            '<td>' + log.timestamp + '</td>' +
+            '<td>' + log.key + '</td>' +
+            '<td>' + log.arg1 + '</td>' +
+            '<td>' + log.arg2 + '</td>' +
+            '<td>' + log.arg3 + '</td>';
+          document.getElementById('mount').appendChild(el)
+        }
+      })
+    </script>
+  </body>
+</html>
