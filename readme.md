@@ -1,5 +1,5 @@
 # BeeNet
-This is an open-source multiplayer relay server built for [APICO](https://store.steampowered.com/app/1390190?utm_source=tnpage).  
+This is an open-source multiplayer relay server built for my game, [APICO](https://store.steampowered.com/app/1390190?utm_source=tnpage).  
 The code here is adapted from the default BeeNet server the game uses (with a few changes), and provides a simple version that players can run locally themselves for PC + Console.
 
 The point of this is to allow players the ability to host a server themselves if something goes wrong with the main server, or if they don't want to use the main server due to it being a UK/LONDON server and all the region ping that may come with that. It also acts as some future proofing for the multiplayer functionality of APICO in case I can no longer afford to keep the main server running anymore.
