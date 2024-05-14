@@ -2,14 +2,14 @@
 This is an open-source multiplayer relay server built for my game, [APICO](https://store.steampowered.com/app/1390190?utm_source=tnpage).  
 The code here is adapted from the default BeeNet server the game uses (with a few changes), and provides a simple version that players can run locally themselves for PC + Console.
 
-The point of this is to allow players the ability to host a server themselves if something goes wrong with the main server, or if they don't want to use the main server due to it being a UK/LONDON server and all the region ping that may come with that. It also acts as some future proofing for the multiplayer functionality of APICO in case I can no longer afford to keep the main server running anymore.
+The point of this is to allow players the ability to host a server themselves if something goes wrong with the main server, or if they don't want to use the main server due to it being a UK/LONDON server and all the region ping that may come with that. It also acts as some future-proofing for the multiplayer functionality of APICO in case I can no longer afford to keep the main server running anymore (which will not be happening anytime soon don't worry!)
 
 This is a RELAY server. This means it is not an instance of the game but instead sends messages between a "host" game and any connected "client" games. As such there is no specific world file linked to the server, it's simply a way for your game and your friends game to communicate over the internet. Everyone who wants to play multiplayer together needs a copy of the game.
 
 > Custom IP option is only available in APICO v4.0+
 
 
-## Usage
+## Getting Started
 For the easiest route, download the server for your OS from the [Releases](https://github.com/ellraiser/beenet/releases) section.
 
 To start the server, simply run the program - you may run into firewall or security warnings which you will need to accept/ignore. Once running you'll see a window open:  
