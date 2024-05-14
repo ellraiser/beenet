@@ -24,9 +24,12 @@ const CLIENT_UUID_MAP = {};
 
 // get address for logs
 var LOCAL_ADDR = '';
-OS.networkInterfaces()['en1'].forEach(function(a) {
-  if (a.family == 'IPv4') LOCAL_ADDR = a.address
-})
+var interfaces = OS.networkInterfaces()
+for (var interface in interfaces) {
+  interfaces[interface].forEach(function(a) {
+    if (a.family == 'IPv4' && LOCAL_ADDR == '') LOCAL_ADDR = a.address
+  })
+}
 
 // port 8335 is hardcoded into the game client itself so you will always
 // have to use this port for your server!!
