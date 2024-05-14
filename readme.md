@@ -10,7 +10,7 @@ This server is a RELAY server. This means it is not an actual instance of the ga
 
 
 ## Usage
-For the easiest route, download the server for your OS from the [Releases] section.
+For the easiest route, download the server for your OS from the [Releases](https://github.com/ellraiser/beenet/releases) section.
 
 To start the server, simply run the program - you may run into firewall or security warnings which you will need to accept/ignore.  
 Once running you'll see a window open:  
@@ -45,7 +45,7 @@ When you have that, other players will be able to join the server by entering yo
 **Example 1**  
 Beenjamin and their friend Beetrix want to play APICO together. They are both at Beenjamin's house, on the same network. Beenjamin wants to host their world, and Beetrix wants to join them.
 
-- Step 1: Beenjamin downloads the BeeNet server from the [Releases] section and runs the program
+- Step 1: Beenjamin downloads the BeeNet server from the [Releases](https://github.com/ellraiser/beenet/releases) section and runs the program
 - Step 2: Beenjamin opens APICO, and enters the IP shown in the BeeNetserver as their Custom IP
 - Step 3: Beenjamin clicks "Host Game" in APICO as they would normally and selects their world
 - Step 4: Beenjamin sends Beetrix the IP shown in the server, who also sets this as their Custom IP in-game
@@ -55,7 +55,7 @@ Beenjamin and their friend Beetrix want to play APICO together. They are both at
 **Example 2**  
 Bobbee and their friend Barnabee want to play APICO together. Barnabee is currently over on the Mainland for a research trip, so is on a different network to Bobbee. Bobbee wants to host their world, and Barnabee wants to join them.
 
-- Step 1: Bobbee downloads the BeeNet server from the [Releases] section and runs the program
+- Step 1: Bobbee downloads the BeeNet server from the [Releases](https://github.com/ellraiser/beenet/releases) section and runs the program
 - Step 2: Bobbee goes to [Port Forward](https://portforward.com/router.htm) to find out how to forward the port `8335`
 - Step 3: Bobbee goes to [Whats My IP](https://www.whatismyip.com/) and jots down their public IP address
 - Step 4: Bobbee opens APICO, and enters the IP shown in the BeeNet server as their Custom IP
